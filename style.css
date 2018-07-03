@@ -1,0 +1,538 @@
+@charset "utf-8";
+/*CSS Document*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    text-decoration: none;
+}
+
+
+/*-------------------------
+       ここから本文
+-------------------------*/
+
+h3{
+    font-weight:bold;
+}
+
+.fdtjf_ic{
+    background-color:#EAEAEA;
+    text-align: right;
+    margin: auto;
+    padding:2px 30px
+}
+
+.fdtjf_ic li{
+    font-size:80%;
+    display: table-cell;
+    /*リスト横並び指示*/
+    display: inline;
+    /*text-align: right;とセットで右寄せ*/
+    text-align: center;
+    padding:0 10px;
+    
+}
+
+.fdtjf_ic a{
+    text-decoration:none;
+}
+
+/*タイトルとテキストボックス*/
+#hed{
+    display: block;
+/*    border-bottom: solid #a9a9a9 1px;*/
+    overflow:hidden;
+    padding: 10px 70px;
+}
+
+.top-title{
+    width:350px;
+    margin: 0 auto;
+    float:left;
+    text-align:left;
+}
+
+h1{
+    margin: 0;
+    width: 0;
+}
+
+.hima-img{
+    width: 350px;
+    height: 58;
+}
+
+.checkbox{
+    float:right;
+    margin-top:10px;
+}
+
+.ri{
+    float: left;
+}
+
+.ri th{
+    font-size:80%;
+}
+
+
+.wasure{
+    text-align: right;
+    font-size:80%;
+}
+
+.roguin{
+    float: right;
+}
+
+
+/*ヘッダー２*/
+.heder-2{
+    border-bottom: #EF5763 solid 3px;
+    padding:0 0px 15px 70px;
+    margin-top:15px;
+}
+
+.heder-2 li{
+    display: table-cell;
+    text-align:center;
+    padding:0 20px;
+    font-size:80%;
+    font-weight: bold; /*文字の太さ*/
+}
+
+.heder-2 a{
+    text-decoration:none;
+}
+
+.koukoku{
+    width:728px;
+    margin: 10px auto;
+}
+
+
+#main{
+/*    border:#000 solid 1px;*/
+    margin:0 180px;
+    overflow:hidden;
+    width:1000px;
+    }
+
+/*中間のリスト*/
+.middle-list{
+    margin-top: 10px;
+    padding:;
+}
+
+.middle-list-1{
+    float:left;
+    text-align:center;
+    font-size:88%;
+/*    border-left:#7fbfff solid 1px;*/
+    padding-left: 4px;
+}
+
+.middle-list-2{
+    float:right;
+    text-align:center;
+    font-size:88%;
+    border-left:#7fbfff solid 1px;
+    padding-left: 4px;
+}
+
+.middle-list a{
+    text-decoration: none; /*下線消し*/
+    border-right:#7fbfff solid 1px;
+    padding-right:4px;
+    font-size:88%;
+}
+
+.serch{
+    display:inline-block;
+    position:relative;
+}
+
+.button input[type=submit]{
+    padding:10px 20px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.main-text{
+    width:;
+    }
+
+/*左カラム*/
+.left-column{
+    float:left;
+    margin:10px 0;
+    width:780px;
+    position:relative;
+    }
+
+.left-column-kensaku{
+    width:785px;
+    text-align:left;
+    margin-bottom:10px;
+    
+    }
+    
+.kensaku-button1{
+    display:inline-block;
+    width:37px;
+    height:37px;
+    margin: 0;
+    transform: translate(-6px,-6px);
+    border-radius: 5px;
+}
+
+.kensaku1{
+    width:82%;
+    font-size:180%;
+    margin:0 0;
+    border-radius:5px
+    }
+    
+.syousai{
+    position:absolute;
+    top:15px;
+    right:10px;
+    font-size:90%;
+    }
+    
+#ranking{
+/*    border:#000 solid 1px;*/
+    float:left;
+    width:760px;
+    height: 60px;
+    padding:5px;
+}
+
+#ranking a{
+    display: inline-block;
+    border:#888 solid 1px;
+    border-radius: 10px;
+    font-size:90%;
+    margin-bottom:10px;
+    padding:3px;
+}
+
+#saisei-top{
+    width:800px;
+    margin-top: 15px;
+    overflow:hidden;
+/*    border: #000 solid 1px;*/
+}
+
+.saisei-header{
+    border-left:#aacf53 solid 15px;
+    background-color: #edf2d8;
+    color:#336;
+    vertical-align:middle;
+    font-weight:bold;
+    padding:5px 0;
+    margin-bottom:10px;
+}
+
+.move-floatleft{
+    float:left;
+    width: 396px;
+/*    border: #000 solid 1px;*/
+    padding-top:50px;
+}
+
+.move-top{
+    width:396px;
+/*    border: #000 solid 1px;*/
+}
+
+.move-text-top{
+    width:320px;
+    margin: auto;
+    text-align:center;
+/*    border: solid 1px;*/
+    font-size:90%;
+    
+}
+
+.move-main-imagebox{
+    width: 320px;
+    height: 243px;
+    border: solid 1px;
+    background-color:#000;
+    text-align: center;
+    margin: auto;
+}
+
+.move-main{
+    display: block;
+    width: 320px;
+    text-align:center;
+    vertical-align:middle;
+    margin-top: 30px;
+}
+
+.move-main-coment{
+    width:300px;
+    height: 40px;
+    margin: 20px auto 0;
+    border: #000 solid 1px;
+}
+
+/*--------------
+サブの動画ここから
+--------------*/
+
+.move-top-sub{
+    float:left;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+
+.move-sub-left{
+    float:left;
+/*    border:#000 solid 1px;*/
+    margin-right:8px;
+    margin-bottom:5px;
+}
+
+.move-sub-top{
+/*    border: #000 solid 1px;*/
+}
+
+.move-sub-text{
+/*    border: #000 solid 1px;*/
+    width: 188px;
+    text-align:left;
+    font-size:70%;
+    overflow:hidden;
+    line-height: 95%; 
+}
+
+.move-sub-imagebox{
+    background-color:#000;
+    border: #000 solid 1px;
+    margin-bottom:5px;
+}
+
+.move-sub{
+    display:block;
+    padding: 30px 0;
+    width:188px;
+}
+
+.move-sub-kansou{
+    border:#000 solid 1px;
+    width:180px;
+    height:30px;
+    margin: auto;
+}
+
+.move-floatright-2{
+    float: left;
+    margin-right:9px;
+}
+
+
+/*----------------
+  サブ動画下まとめ
+----------------*/
+.move-bottom-sub-box{
+/*    float:left;*/
+    width:800px;
+/*    border:#000 solid 1px;*/
+    overflow:hidden;
+}
+
+.shintyaku{
+    background-color:#edf2d8;
+    border-left:#aacf53 solid 18px;
+    text-align:left;
+    padding:5px;
+    font-weight:bold;
+    color:#336;
+}
+
+.move-bottom-sub{
+    float:left;
+    margin-right:8px;
+    margin-bottom:5px;
+}
+
+
+/*-------------
+右カラムここから↓
+-------------*/
+.right-column{
+/*    border:#000 solid 1px;*/
+    width:180px;
+    height:1656px;
+    float:right;
+}
+
+.right-column p{
+    font-size:90%;
+    border-bottom:#000 solid 1px;
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:10px 0;
+}
+/*----------------
+  右カラムここまで↑
+----------------*/
+
+
+
+
+.Under-bar{
+    width:100%;
+    clear:both;
+    padding-left:222px;
+}
+
+.Under-bar li{
+    width:100px;
+    border-left: 1px solid #000;
+    padding:5px;
+    display: table-cell;
+    font-size:85%;
+    text-align: center;
+}
+
+.Under-bar li:first-child{
+    border-left: none;
+}
+
+.kadou{
+    text-align: center;
+    font-size:90%;
+    border-bottom:#ccc solid 1px;
+}
+
+
+/*--------------
+フッターここから↓
+--------------*/
+.f-top{
+    padding:40px 100px;
+    border-bottom:#ccc solid 1px;
+    overflow:hidden;
+}
+
+#footer-top{
+    background-color:#f6f6f6;
+    margin-bottom:20px;    
+}
+
+#footer-top img{
+    width:350px;
+}
+
+.foot-left-column{
+    float:left;
+    width:350px;
+    margin-right:30px;
+}
+
+.foot-left-column h3{
+    margin-bottom:20px;
+}
+
+.foot-left-column p{
+    font-size:90%;
+    text-align:left;
+    margin-bottom:10px;
+    color:dimgrey;
+}
+
+.foot-right-column{
+    float:left;
+    
+}
+
+.foot-right-column h3{
+    margin-bottom:20px;
+}
+
+.foot-right-column p{
+    font-size:90%;
+    text-align:left;
+    margin-bottom:10px;
+}
+/*-------------
+フッターここまで↑
+-------------*/
+
+
+
+/*-----------
+一番下の所↓
+------------*/
+.bot li{
+    display:table-cell;
+    padding-right:30px;
+}
+
+.bot{
+    padding:40px 100px;
+    font-size:90%;
+    margin-bottom:15px;
+}
+
+.bot nav{
+    margin-bottom:20px;
+}
+
+.bot-li{
+    color:#888;
+    display:block;
+    vertical-align:middle;
+}
